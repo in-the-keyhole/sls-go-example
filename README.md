@@ -18,6 +18,7 @@ This repository contains a VSCode Remote Container Setup for developing GoLang b
 #### Environment Variables
 
 The remote container honors the following environment variables to be set in the .devcontainer/.env
+> _Note: You can rename the .devcontainer/.env.template file and supply the following variables_
 
 * AWS_ACCESS_KEY_ID
 * AWS_SECRET_ACCESS_KEY
