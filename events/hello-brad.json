@@ -1,0 +1,9 @@
+{
+  "httpMethod": "GET",
+  "queryStringParameters": {
+    "name": "Brad"
+  },
+  "pathParameters": {
+    "proxy": "/hello"
+  }
+}
