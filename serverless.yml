@@ -23,17 +23,18 @@ provider:
 package:
   patterns:
     - '!./**'
-    - ./bin/**
+    - ./api/bin/**
+  individually: true
 
 functions:
   hello:
-    handler: bin/hello
+    handler: api/bin/hello
     events:
       - httpApi:
           path: /hello
           method: get
   world:
-    handler: bin/world
+    handler: api/bin/world
     events:
       - httpApi:
           path: /world

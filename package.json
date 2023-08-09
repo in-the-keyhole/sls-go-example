@@ -1,7 +1,9 @@
 {
   "name": "sls-go-example",
   "version": "1.0.0",
-  "main": "index.js",
+  "scripts": {
+    "deploy": "sls deploy"
+  },
   "dependencies": {
     "serverless-offline": "^12.0.4"
   }
